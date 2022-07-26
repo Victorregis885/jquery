@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+
+* {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1em;
+} 
+
+.font-1-5{
+    font-size: 1.5em;
+    color: hsl(216, 100%, 50%);
+}
+
+.font-2-0{
+    font-size: 2.0em;
+    color: #ff1e00;
+}
+
+.font-2-5{
+    font-size: 2.5em;
+    color: #b700ff;
+}
