@@ -21,4 +21,29 @@ $(document).ready(function(){
         $('p').addClass('font-2-5');
     });
 
+
+    //Funções para manipulação das imagens
+
+    $('#btn-hide').click(function(){
+        $('.image').fadeOut(2500);
+        $('.menu').fadeToggle('slow');
+
+    });
+    
+    
+    $('#btn-show').click(function(){
+        $('.image').fadeIn(2500);
+        $('.menu').fadeToggle('slow');
+
+    });
+
+
+
+    //iNICANDO O MENU 
+
+    $('.menu').hide();
+
+    $('.nav-bar').click(function(){
+        $('.menu').fadeToggle('slow');
+    });
 });
