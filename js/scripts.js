@@ -14,6 +14,16 @@ $(document).ready(function(){
 
         var frase = " Olá "+nome+" sua idade é: "+idade
 
-        alert(frase)
+
+        $("#mensagem").append(frase)
+
+        $("#NOME").val("")
+        $("#IDADE").val("")
+    })
+
+    //Monitor quando o cursor estiver dentro do campo #NOME
+
+    $("#NOME").focus(function(){
+        $("#mensagem").empty()
     })
 })
